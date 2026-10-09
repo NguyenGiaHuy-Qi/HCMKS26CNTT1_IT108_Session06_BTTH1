@@ -1,0 +1,7 @@
+Phần 1: Phân tích
+- Lỗi 1: mkdir Smart Farm Project sai vì tên thư mục có khoảng trắng, cần đặt trong dấu ngoặc kép.
+- Lỗi 2: cd Smart Farm Project sai vì PowerShell hiểu tên thư mục thành nhiều đối số riêng biệt.
+Phần 2: Hoàn thiện
+mkdir "Smart Farm Project"
+cd "Smart Farm Project"
+mkdir src\sensors\temperature
